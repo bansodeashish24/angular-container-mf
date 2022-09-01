@@ -1,0 +1,14 @@
+.spinner-container {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  z-index: 1000000;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  width: 100%;
+
+  mat-spinner {
+    left: 50%;
+    top: 50%;
+  }
+}

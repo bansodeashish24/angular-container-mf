@@ -1,0 +1,28 @@
+$header-height: 80px;
+
+.page-container {
+  display: flex;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 225px;
+  background-color: aquamarine;
+  flex: initial;
+}
+
+.middle-container {
+  border: 1px solid blue;
+  flex: 1;
+}
+
+.middle-container .header {
+  height: $header-height;
+  background-color: aqua;
+}
+
+.child-mfe-container {
+  border: 1px solid black;
+  height: calc(100vh - $header-height);
+  display: flex;
+}

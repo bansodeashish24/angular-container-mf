@@ -1,0 +1,58 @@
+/* 
+  .classTest{
+
+    color: white !important;
+    background-color: yellow !important;
+} */
+
+.snackBar,
+.snackBar div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-left: 2px solid green; */
+  /* background-color: wheat; */
+  padding: 0 0 0 5px;
+  height: 100%;
+}
+
+.snackBar div span {
+  padding: 0 0 0 5px;
+}
+
+// ::ng-deep .mat-snack-bar-container {
+//     padding: 0 !important;
+//     min-height: 40px !important;
+// }
+
+.success {
+  background-color: #d9f7be;
+  color: #2f6e14;
+}
+
+.warning {
+  background-color: #fde7ba;
+  color: #ad4e20;
+}
+
+.error {
+  background-color: #f8cbc7;
+  color: #cf3c28;
+}
+
+.info {
+  background-color: #d6e4fe;
+  color: #1d39c4;
+}
+
+.mat-icon#toastIcon {
+  font-size: 16.67px;
+  width: 16.67px;
+  height: 16.67px;
+  color: #2f6e14;
+}
+
+.mat-icon#close {
+  font-weight: 600;
+  font-size: 16.67px;
+}

@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/NotoSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/NotoSans-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/NotoSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/NotoSans-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}

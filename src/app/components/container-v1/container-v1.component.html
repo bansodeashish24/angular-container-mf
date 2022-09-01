@@ -1,0 +1,25 @@
+<mat-drawer-container class="drawer-container">
+  <mat-drawer-content>
+    <div class="page-container">
+      <aside class="sidebar"></aside>
+      <div class="middle-container">
+        <header class="header"></header>
+        <div class="child-mfe-container">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </mat-drawer-content>
+  <mat-drawer
+    [ngClass]="{
+      'mat-drawer-1': drawerNumber === 1
+    }"
+    #drawer
+    mode="over"
+    position="end"
+  >
+    <!-- The following is an example drawer sub component selector. Add yours here to see it in the drawer -->
+    <!-- <app-drawer-sub-component *ngIf="drawerNumber === 1" [drawerInputs]="drawerInputs" (onCloseDrawer)="drawer.toggle()">
+        </app-drawer-sub-component> -->
+  </mat-drawer>
+</mat-drawer-container>

@@ -1,0 +1,21 @@
+<!-- <span class="example-pizza-party">
+    Single line Message goes here 
+  </span> -->
+
+<div class="snackBar" [ngClass]="{
+    'success': data.type==='success',
+    'error': data.type==='error',
+    'warning': data.type==='warning',
+    'info': data.type==='info'
+  }">
+    <div>
+        <mat-icon id="toastIcon">{{data.type=='success'?'check_circle':data.type}}</mat-icon>
+        <span>{{data.message}}</span>
+
+    </div>
+    <div>
+        <button mat-icon-button (click)="sbRef.dismiss()">
+          <mat-icon id="close">close</mat-icon>
+        </button>
+    </div>
+</div>
