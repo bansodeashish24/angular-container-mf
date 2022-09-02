@@ -1,8 +1,61 @@
 # AngularContainerMf
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+This is the container of a micro frontend based angular app, it comes configured with the following features:
+
+ ✅  Intuitive project and folder structure.
+ 
+ ✅  Micro Frontend support using Webpack Module Federation
+ 
+ ✅  Internationalization (i18n) support
+ 
+ ✅  Environment specific local storage encryption
+ 
+ ✅  Angular Material
+ 
+ ✅  Keycloak IAM integration
+ 
+ ✅  Configuration for container to remote communication and vice versa
+ 
+ ✅  Global Angular services for:
+ 
+- API Calling
+    
+- Data provider
+    
+- Local Storage
+    
+- Snackbar manipulation
+    
+- Translation (i18n)
+    
+- Common Shared functionality
+    
+✅  Utilities for:
+
+- Centralized API endpoints
+
+- Centralized Constants
+
+- Network interceptors (for spinner and sending auth headers in APIs)
+
+✅  Common UI functionality such as:
+
+- Mat Drawer / Sidenav
+
+- Mat Snackbar
+
+- Mat Dialog
+
+- Cross Micro Frontend routing through the container.
+
+ ✅  Support to import custom web components created as Angular Elements. (Using CUSTOM_ELEMENTS_SCHEMA).
+ 
+ ✅  Environment specific index.html files to manage index level imports.
+
 
 ## Development server
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
