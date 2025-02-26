@@ -52,6 +52,8 @@ This is the container of a micro frontend based angular app, it comes configured
  
  ✅  Environment specific index.html files to manage index level imports.
 
+## Note:
+This project must be used along with atleast once child micro-frontend. The reference for which can be found here [Child micro-frontend Project](https://github.com/bansodeashish24/angular-child-mf-1)
 
 ## Development server
 
